@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="pages/sign-up/css/index.css">
+    <link rel="stylesheet" href="<?php include $_SERVER['DOCUMENT_ROOT'] . '/server/configuration/index.inc.php'; echo $website_address; ?>/pages/sign-up/css/index.css">
     <title>Sign up</title>
   </head>
   <body id="body">
